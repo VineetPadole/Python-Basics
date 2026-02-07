@@ -12,99 +12,99 @@ print(len(name))  #O/P : Vineet Padole  #O/P :  13
 #If the character can not be found it will give -1 as a output 
 # Syntax: 1.variable.find("Character") #This will only find the first occurrence 
 #      2.variable.rfind("Character") #This will only find the last occurrence
-1.Ex :- 
+#1.Ex :- 
 name = input("Enter your full name:")
 print(name.find("q"))
-I/P : Vineet Padole  #O/P : 6
-2.Ex :-
+#I/P : Vineet Padole  #O/P : 6
+#2.Ex :-
 name = input("Enter your full name:")
 print(name.rfind(" "))
-I/P : Vineet Padole ni  #O/P : 13
-3.Ex :- 
+#I/P : Vineet Padole ni  #O/P : 13
+#3.Ex :- 
 name = input("Enter your full name:")
 print(name.find("q"))
-I/P : Vineet Padole  #O/P : -1
+#I/P : Vineet Padole  #O/P : -1
 
 #capitalize
 #It capitalizes the first letter 
 # Syntax:-
 variable.capitalize()
-Ex :-  
+#Ex :-  
 name = input("Enter your full name: ")
 print(name.capitalize())
-I/P :  vineet padole  #O/P : Vineet padole
+#I/P :  vineet padole  #O/P : Vineet padole
 
 #upper
 #All the letters will be upper case
 # Syntax: variable.upper()
-Ex :- 
+#Ex :- 
 name = input("Enter your full name: ")
 print(name.upper())
-I/P :  vineet padole  #O/P : VINEET PADOLE
+#I/P :  vineet padole  #O/P : VINEET PADOLE
 
 #lower
 #All the letters will be lower case
 # Syntax: variable.lower()
-Ex :- 
+#Ex :- 
 name = input("Enter your full name: ")
 print(name.lower())
-I/P :  VINEET PADOLE  #O/P : vineet padole
+#I/P :  VINEET PADOLE  #O/P : vineet padole
 
 #isdigit
 #All the character should be digits only
 #If all the characters are digit the output will be boolean value 
 #If their is a space then output wil be False
 # Syntax: name.isdigit()
-Ex :- 
+#Ex :- 
 name = input("Enter your username: ")
 print(name.isdigit())
-I/P : nigga123 #O/P : False
-Ex :- 
+#I/P : nigga123 #O/P : False
+#Ex :- 
 name = input("Enter your username: ")
 print(name.isdigit())
-I/P : 123 #O/P : True
+#I/P : 123 #O/P : True
 
 #isalpha
 #All the character should be alphabets only
 #If all the characters are digit the output will be boolean value 
 #If their is a space then output wil be False
 # Syntax: name.isalpha()
-Ex :- 
+#Ex :- 
 name = input("Enter your username: ")
 print(name.isalpha())
 I/P : nigga123 #O/P : False
-Ex :- 
+#Ex :- 
 name = input("Enter your username: ")
 print(name.isalpha())
-I/P : nigga #O/P : True
+#I/P : nigga #O/P : True
 
 #count
 #It counts the number of characters
 # Syntax: variable.count("character")
-Ex :- 
+#Ex :- 
 name = input("Enter your full name: ")
 print(name.count("e"))  #Means it is caps sensitive 
-I/P :  Vineet Padole  #O/P : 3
+#I/P :  Vineet Padole  #O/P : 3
 
 #replace
 #It will replace a with a desired character
 #It can also be replaced with empty string
 # Syntax: variable.replace("The character want to replace" , "The character want to be replaced with")
-Ex :- 
+#Ex :- 
 name = input("Enter your full name: ")
 print(name.replace(" ","_"))
-I/P : Vineet Padole #O/P : Vineet_Padole
-Ex :- 
+#I/P : Vineet Padole #O/P : Vineet_Padole
+#Ex :- 
 name = input("Enter your full name: ")
 print(name.replace(" ",""))
-I/P : Vineet Padole #O/P : VineetPadole
+#I/P : Vineet Padole #O/P : VineetPadole
 
 
 
 #string indexing
 #Accessing elements of a sequence using [] (indexing operators) [start : end :step]
 # Syntax: variable[start : end :step] #start : slice begins, end : slice end (excluding), step : The "jump" or interval
-Ex :- 
+#Ex :- 
 credit_number = "1234-5678-9012-3456"
 print(credit_number[1]) #O/P : 2
 print(credit_number[0 : 4]) #O/P : 1234

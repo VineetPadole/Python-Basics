@@ -3,7 +3,7 @@
 #len
 #It counts the numbers of characters and also the space
 # Syntax: len(variable) 
-Ex :- 
+#Ex :- 
 name = input("Enter your full name:")
 print(len(name))  #O/P : Vineet Padole  #O/P :  13
 

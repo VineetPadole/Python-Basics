@@ -34,3 +34,8 @@ print(f"Price 3 is {price3:<10}") #O/P :12.34     | }
 print(f"Price 1 is {price1:>10}") #O/P :|   3.14159| }  
 print(f"Price 2 is {price2:>10}") #O/P :|   -987.65| } #This will right justify everything and leave space to the left till the end of the string 
 print(f"Price 3 is {price3:>10}") #O/P :|     12.34| }
+
+# :^ = center align
+print(f"Price 1 is {price1:^10}") #O/P :| 3.14159 | }        
+print(f"Price 2 is {price2:^10}") #O/P :| -987.65 | } #This will center align everything leaving spaces before and after the number if needed 
+print(f"Price 3 is {price3:^10}") #O/P :|  12.34  | }
